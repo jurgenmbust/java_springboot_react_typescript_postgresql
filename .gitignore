@@ -1,0 +1,21 @@
+# Local credentials and development tools
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+.tools/
+.idea/
+.vscode/
+**/target/
+**/node_modules/
+**/dist/
+**/coverage/
+*.log
+*.db
+*.sqlite*
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
